@@ -35,6 +35,10 @@
 // only when there are changes to the plugin API. This allows compiled
 // plugins to work with newer versions of the core VDR as long as no
 // interfaces have changed. APIVERSNUM begins with "300.." for backwards
+
+// The MainMenuHook Patch's version number:
+#define MAINMENUHOOKSVERSION "1.0.5"
+#define MAINMENUHOOKSVERSNUM  10005  // Version * 10000 + Major * 100 + Minor
 // compatibility and can be used in #if preprocessor statements to handle
 // version dependent code.
 
