@@ -1,0 +1,8 @@
+*.a
+*.mo
+*.o
+*.pot
+*.so
+.dependencies
+/include
+
